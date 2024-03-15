@@ -54,4 +54,45 @@ public class MetodosOrdenacao {
 			}
 		}
 	}
+
+	public int[] quickSort(int[] vt, int inicio, int fim) {
+		if (fim > inicio) {
+			int indPivo = separar(vt, inicio, fim);
+
+			quickSort(vt, inicio, indPivo - 1);
+			quickSort(vt, indPivo + 1, fim);
+		}
+		return vt;
+	}
+
+	private int separar(int[] vt, int inicio, int fim) {
+		int pivo, pontEsq, pontDir = fim;
+		pontEsq = inicio + 1;
+		pivo = vt[inicio];
+
+		while (pontEsq <= pontDir) {
+			while (pontEsq <= pontDir && vt[pontEsq] <= pivo) {
+				pontEsq++;
+			}
+
+			while (pontDir >= pontEsq && vt[pontDir] > pivo) {
+				pontDir--;
+			}
+
+			if (pontEsq < pontDir) {
+				trocar(vt, pontDir, pontEsq);
+				pontEsq++;
+				pontDir--;
+			}
+		}
+
+		trocar(vt, inicio, pontDir);
+		return pontDir;
+	}
+
+	private void trocar(int[] vetor, int i, int j) {
+		int temp = vetor[i];
+		vetor[i] = vetor[j];
+		vetor[j] = temp;
+	}
 }
