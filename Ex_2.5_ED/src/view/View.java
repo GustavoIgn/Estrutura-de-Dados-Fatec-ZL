@@ -15,7 +15,7 @@ public class View {
 			int n2 =  Integer.parseInt(JOptionPane.showInputDialog("Insira um valor"));
 			if (n1 > 0 && n2 > 0) {
 				valido = true;
-				System.out.println("O MDC � " + cont.MDC(n1, n2));
+				System.out.println("O MDC é " + cont.MDC(n1, n2));
 			} else {
 				System.out.println("Insira numeros positivos");
 			}
