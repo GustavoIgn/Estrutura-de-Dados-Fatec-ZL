@@ -16,7 +16,7 @@ public class View {
 			if (n % 2 == 0 && n > 0) {
 				System.out.println("Insira um valor impar positivo");
 			} else {
-				System.out.println("O fatorial duplo de " + n + " é " + cont.Fatorial(n));
+				System.out.println("O fatorial duplo de " + n + " Ã© " + cont.Fatorial(n));
 				valido = true;
 			}
 		}
