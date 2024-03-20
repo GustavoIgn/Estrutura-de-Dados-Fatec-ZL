@@ -14,7 +14,7 @@ public class View {
 		n1 = Integer.parseInt(JOptionPane.showInputDialog("Digite o valor de A"));
 		n2 = Integer.parseInt(JOptionPane.showInputDialog("Digite o valor de B"));
 		
-		System.out.println("A multiplicação de " + n1 + " * " + n2  + " é " +cont.SomaMultiplicação(n1, n2));
+		System.out.println("A multiplicaÃ§Ã£o de " + n1 + " * " + n2  + " Ã© " +cont.SomaMultiplicaÃ§Ã£o(n1, n2));
 
 	}
 

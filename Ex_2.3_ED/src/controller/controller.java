@@ -6,11 +6,11 @@ public class controller {
 	}
 	
 	public int AcharPar(int[] vt, int tamanho) {
-		//Condição de Parada: tamanho do vetor fora de limite
+		//CondiÃ§Ã£o de Parada: tamanho do vetor fora de limite
 		if (tamanho == -1) {
 			return 0;
 		} else {
-			//caso o valor seja par, ele soma 1 na função, e caso seja impar soma 0.
+			//caso o valor seja par, ele soma 1 na funÃ§Ã£o, e caso seja impar soma 0.
 			if (vt[tamanho] % 2 == 0) {
 				return 1 + AcharPar(vt, tamanho - 1);
 			} else {

@@ -13,7 +13,7 @@ public class View {
 		n1 = Integer.parseInt(JOptionPane.showInputDialog("Insira o valor de A"));
 		n2 = Integer.parseInt(JOptionPane.showInputDialog("Insira o valor de B"));
 
-		System.out.println("A divis„o de " + n1 + " / " + n2 + " È " + cont.SubtraÁ„oDivis„o(n1, n2));
+		System.out.println("A divis√£o de " + n1 + " / " + n2 + " √© " + cont.Subtra√ß√£oDivis√£o(n1, n2));
 		;
 
 	}

@@ -5,13 +5,13 @@ public class Controller {
 		super();
 	}
 
-	public int SubtraçãoDivisão(int n1, int n2) {
-		// Condição de Parada: o número (B) divisor é reduzido, e quando for menor que A
-		// deve retornar o valor de A para a subtração primária;
+	public int SubtraÃ§Ã£oDivisÃ£o(int n1, int n2) {
+		// CondiÃ§Ã£o de Parada: o nÃºmero (B) divisor Ã© reduzido, e quando for menor que A
+		// deve retornar o valor de A para a subtraÃ§Ã£o primï¿½ria;
 		if (n1 < n2 ) {
 			return n1;
 		} else {
-			return SubtraçãoDivisão(n1 - n2, n2);
+			return SubtraÃ§Ã£oDivisÃ£o(n1 - n2, n2);
 		}
 
 	}

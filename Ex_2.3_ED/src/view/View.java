@@ -23,7 +23,7 @@ public class View {
 					valido = true;
 				} else {
 					valido = false;
-					JOptionPane.showMessageDialog(null, "Insira um número inteiro diferente de 0");
+					JOptionPane.showMessageDialog(null, "Insira um numero inteiro diferente de 0");
 				}
 			}
 		}
@@ -33,6 +33,6 @@ public class View {
 			System.out.print(i + " ");
 		}
 
-		System.out.println("\nExistem " + cont.AcharPar(vt, tamanho - 1) + " números pares.");
+		System.out.println("\nExistem " + cont.AcharPar(vt, tamanho - 1) + " numeros pares.");
 	}
 }

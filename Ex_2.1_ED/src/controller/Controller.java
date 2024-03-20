@@ -6,13 +6,13 @@ public class Controller {
 		super();
 	}
 
-	public int SomaMultiplicação(int n1, int n2) {
-		// Condição de Parada: o número (B) multiplicado é reduzido, e quando atingir 1
-		// deve retornar o valor de A para a soma primária;
+	public int SomaMultiplicaÃ§Ã£o(int n1, int n2) {
+		// CondiÃ§Ã£o de Parada: o nÃºmero (B) multiplicado Ã© reduzido, e quando atingir 1
+		// deve retornar o valor de A para a soma primï¿½ria;
 		if (n2 == 1) {
 			return n1;
 		} else {
-			return n1 + SomaMultiplicação(n1, --n2);			
+			return n1 + SomaMultiplicaÃ§Ã£o(n1, --n2);			
 		}
 	}
 }
