@@ -19,6 +19,7 @@ public class Main {
             "5425612994",
             "5964693077",
             "1160723572",
+            "1189344242",
             "8349857059"
         };
         String[] vetorNome = {
@@ -31,6 +32,7 @@ public class Main {
             "Lucas",
             "Mariana",
             "Paula",
+            "Josué",
             "Rafael"
         };
 
